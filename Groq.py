@@ -1,7 +1,7 @@
 import os
 import time
 from groq import Groq
-os.environ["GROQ_API_KEY"] = "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"
+os.environ["GROQ_API_KEY"] = "["GROQ_API_KEY"]"
 client = Groq()
 def generate_response_groq(relevant_text,query):
     # GROQ query
